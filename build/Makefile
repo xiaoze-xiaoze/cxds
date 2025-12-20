@@ -128,29 +128,29 @@ ds_demo/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ds_demo.dir\build.make CMakeFiles/ds_demo.dir/build
 .PHONY : ds_demo/fast
 
-src/Error.obj: src/Error.cpp.obj
-.PHONY : src/Error.obj
+src/Error/Error.obj: src/Error/Error.cpp.obj
+.PHONY : src/Error/Error.obj
 
 # target to build an object file
-src/Error.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ds_demo.dir\build.make CMakeFiles/ds_demo.dir/src/Error.cpp.obj
-.PHONY : src/Error.cpp.obj
+src/Error/Error.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ds_demo.dir\build.make CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj
+.PHONY : src/Error/Error.cpp.obj
 
-src/Error.i: src/Error.cpp.i
-.PHONY : src/Error.i
+src/Error/Error.i: src/Error/Error.cpp.i
+.PHONY : src/Error/Error.i
 
 # target to preprocess a source file
-src/Error.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ds_demo.dir\build.make CMakeFiles/ds_demo.dir/src/Error.cpp.i
-.PHONY : src/Error.cpp.i
+src/Error/Error.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ds_demo.dir\build.make CMakeFiles/ds_demo.dir/src/Error/Error.cpp.i
+.PHONY : src/Error/Error.cpp.i
 
-src/Error.s: src/Error.cpp.s
-.PHONY : src/Error.s
+src/Error/Error.s: src/Error/Error.cpp.s
+.PHONY : src/Error/Error.s
 
 # target to generate assembly for a file
-src/Error.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ds_demo.dir\build.make CMakeFiles/ds_demo.dir/src/Error.cpp.s
-.PHONY : src/Error.cpp.s
+src/Error/Error.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ds_demo.dir\build.make CMakeFiles/ds_demo.dir/src/Error/Error.cpp.s
+.PHONY : src/Error/Error.cpp.s
 
 src/Graph/AdjacencyMatrixGraph.obj: src/Graph/AdjacencyMatrixGraph.cpp.obj
 .PHONY : src/Graph/AdjacencyMatrixGraph.obj
@@ -617,9 +617,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ds_demo
-	@echo ... src/Error.obj
-	@echo ... src/Error.i
-	@echo ... src/Error.s
+	@echo ... src/Error/Error.obj
+	@echo ... src/Error/Error.i
+	@echo ... src/Error/Error.s
 	@echo ... src/Graph/AdjacencyMatrixGraph.obj
 	@echo ... src/Graph/AdjacencyMatrixGraph.i
 	@echo ... src/Graph/AdjacencyMatrixGraph.s

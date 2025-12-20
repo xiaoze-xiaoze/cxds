@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ds_demo.dir/src/Error.cpp.obj"
-  "CMakeFiles/ds_demo.dir/src/Error.cpp.obj.d"
+  "CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj"
+  "CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj.d"
   "CMakeFiles/ds_demo.dir/src/Graph/AdjacencyMatrixGraph.cpp.obj"
   "CMakeFiles/ds_demo.dir/src/Graph/AdjacencyMatrixGraph.cpp.obj.d"
   "CMakeFiles/ds_demo.dir/src/Linear_List/CircularDoubleLinkList.cpp.obj"

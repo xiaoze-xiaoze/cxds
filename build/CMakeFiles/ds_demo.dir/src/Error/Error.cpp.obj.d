@@ -1,6 +1,6 @@
-CMakeFiles/ds_demo.dir/src/Linear_List/DoubleLinkList.cpp.obj: \
- D:\Data\ Structures\ and\ Algorithms\Data\ Structures\ with\ C++\src\Linear\ List\DoubleLinkList.cpp \
- D:/Data\ Structures\ and\ Algorithms/Data\ Structures\ with\ C++/src/Error/Error.hpp \
+CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj: \
+ D:\Data\ Structures\ and\ Algorithms\Data\ Structures\ with\ C++\src\Error\Error.cpp \
+ D:\Data\ Structures\ and\ Algorithms\Data\ Structures\ with\ C++\src\Error\Error.hpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/string \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/requires_hosted.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

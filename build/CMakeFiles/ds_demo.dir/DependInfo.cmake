@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Data Structures and Algorithms/Data Structures with C++/src/Error.cpp" "CMakeFiles/ds_demo.dir/src/Error.cpp.obj" "gcc" "CMakeFiles/ds_demo.dir/src/Error.cpp.obj.d"
+  "D:/Data Structures and Algorithms/Data Structures with C++/src/Error/Error.cpp" "CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj" "gcc" "CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj.d"
   "D:/Data Structures and Algorithms/Data Structures with C++/src/Graph/AdjacencyMatrixGraph.cpp" "CMakeFiles/ds_demo.dir/src/Graph/AdjacencyMatrixGraph.cpp.obj" "gcc" "CMakeFiles/ds_demo.dir/src/Graph/AdjacencyMatrixGraph.cpp.obj.d"
   "D:/Data Structures and Algorithms/Data Structures with C++/src/Linear List/CircularDoubleLinkList.cpp" "CMakeFiles/ds_demo.dir/src/Linear_List/CircularDoubleLinkList.cpp.obj" "gcc" "CMakeFiles/ds_demo.dir/src/Linear_List/CircularDoubleLinkList.cpp.obj.d"
   "D:/Data Structures and Algorithms/Data Structures with C++/src/Linear List/CircularLinkList.cpp" "CMakeFiles/ds_demo.dir/src/Linear_List/CircularLinkList.cpp.obj" "gcc" "CMakeFiles/ds_demo.dir/src/Linear_List/CircularLinkList.cpp.obj.d"

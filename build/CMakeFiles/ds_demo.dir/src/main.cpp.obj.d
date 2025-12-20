@@ -215,5 +215,5 @@ CMakeFiles/ds_demo.dir/src/main.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/bits/ranges_algo.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/pstl/glue_algorithm_defs.h \
  D:/Data\ Structures\ and\ Algorithms/Data\ Structures\ with\ C++/src/Set/UnionFindSet.cpp \
- D:/Data\ Structures\ and\ Algorithms/Data\ Structures\ with\ C++/src/Error.hpp \
+ D:/Data\ Structures\ and\ Algorithms/Data\ Structures\ with\ C++/src/Error/Error.hpp \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/c++/expected

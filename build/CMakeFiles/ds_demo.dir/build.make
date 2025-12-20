@@ -68,20 +68,20 @@ include CMakeFiles/ds_demo.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ds_demo.dir/flags.make
 
-CMakeFiles/ds_demo.dir/src/Error.cpp.obj: CMakeFiles/ds_demo.dir/flags.make
-CMakeFiles/ds_demo.dir/src/Error.cpp.obj: CMakeFiles/ds_demo.dir/includes_CXX.rsp
-CMakeFiles/ds_demo.dir/src/Error.cpp.obj: D:/Data\ Structures\ and\ Algorithms/Data\ Structures\ with\ C++/src/Error.cpp
-CMakeFiles/ds_demo.dir/src/Error.cpp.obj: CMakeFiles/ds_demo.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structures and Algorithms\Data Structures with C++\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ds_demo.dir/src/Error.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ds_demo.dir/src/Error.cpp.obj -MF CMakeFiles\ds_demo.dir\src\Error.cpp.obj.d -o CMakeFiles\ds_demo.dir\src\Error.cpp.obj -c "D:\Data Structures and Algorithms\Data Structures with C++\src\Error.cpp"
+CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj: CMakeFiles/ds_demo.dir/flags.make
+CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj: CMakeFiles/ds_demo.dir/includes_CXX.rsp
+CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj: D:/Data\ Structures\ and\ Algorithms/Data\ Structures\ with\ C++/src/Error/Error.cpp
+CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj: CMakeFiles/ds_demo.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Data Structures and Algorithms\Data Structures with C++\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj -MF CMakeFiles\ds_demo.dir\src\Error\Error.cpp.obj.d -o CMakeFiles\ds_demo.dir\src\Error\Error.cpp.obj -c "D:\Data Structures and Algorithms\Data Structures with C++\src\Error\Error.cpp"
 
-CMakeFiles/ds_demo.dir/src/Error.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ds_demo.dir/src/Error.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structures and Algorithms\Data Structures with C++\src\Error.cpp" > CMakeFiles\ds_demo.dir\src\Error.cpp.i
+CMakeFiles/ds_demo.dir/src/Error/Error.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/ds_demo.dir/src/Error/Error.cpp.i"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Data Structures and Algorithms\Data Structures with C++\src\Error\Error.cpp" > CMakeFiles\ds_demo.dir\src\Error\Error.cpp.i
 
-CMakeFiles/ds_demo.dir/src/Error.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ds_demo.dir/src/Error.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structures and Algorithms\Data Structures with C++\src\Error.cpp" -o CMakeFiles\ds_demo.dir\src\Error.cpp.s
+CMakeFiles/ds_demo.dir/src/Error/Error.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/ds_demo.dir/src/Error/Error.cpp.s"
+	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Data Structures and Algorithms\Data Structures with C++\src\Error\Error.cpp" -o CMakeFiles\ds_demo.dir\src\Error\Error.cpp.s
 
 CMakeFiles/ds_demo.dir/src/Graph/AdjacencyMatrixGraph.cpp.obj: CMakeFiles/ds_demo.dir/flags.make
 CMakeFiles/ds_demo.dir/src/Graph/AdjacencyMatrixGraph.cpp.obj: CMakeFiles/ds_demo.dir/includes_CXX.rsp
@@ -370,7 +370,7 @@ CMakeFiles/ds_demo.dir/src/main.cpp.s: cmake_force
 
 # Object files for target ds_demo
 ds_demo_OBJECTS = \
-"CMakeFiles/ds_demo.dir/src/Error.cpp.obj" \
+"CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj" \
 "CMakeFiles/ds_demo.dir/src/Graph/AdjacencyMatrixGraph.cpp.obj" \
 "CMakeFiles/ds_demo.dir/src/Linear_List/CircularDoubleLinkList.cpp.obj" \
 "CMakeFiles/ds_demo.dir/src/Linear_List/CircularLinkList.cpp.obj" \
@@ -394,7 +394,7 @@ ds_demo_OBJECTS = \
 # External object files for target ds_demo
 ds_demo_EXTERNAL_OBJECTS =
 
-ds_demo.exe: CMakeFiles/ds_demo.dir/src/Error.cpp.obj
+ds_demo.exe: CMakeFiles/ds_demo.dir/src/Error/Error.cpp.obj
 ds_demo.exe: CMakeFiles/ds_demo.dir/src/Graph/AdjacencyMatrixGraph.cpp.obj
 ds_demo.exe: CMakeFiles/ds_demo.dir/src/Linear_List/CircularDoubleLinkList.cpp.obj
 ds_demo.exe: CMakeFiles/ds_demo.dir/src/Linear_List/CircularLinkList.cpp.obj
