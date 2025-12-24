@@ -4,45 +4,49 @@ This is an educational data-structure library. I began writing it while learning
 
 这是一个用于学习的数据结构库，由于我在学习数据结构的同时，也在同步学习 C++，因此代码中尝试了大量 C++ 新特性（如 `std::expected` `std::function` 等），受限于个人经验，实现与风格难免生疏，尚祈海涵。
 
+在这两个月时间里我确实发现了 c++ 的一些问题，"泛型 + 内联"本身可以可以提供零成本抽象是很好的一件事，但是 c++ 把 cpp 和 hpp 区分开，导致了一些很麻烦的问题，也造就了这个仓库里面全是hpp 的现状，因为我使用了大量的模板。Rust 有很好的解决这些问题，因此在后续的项目中我会考虑用 RUST来写。
+
 ```
 Data Structures with C++
 ├── CMakeLists.txt
 ├── README.md
 ├── build\
 ├── tests\
-│   ├── test_linarList.cpp
-│   └── 
+│   ├── test_error.cpp
+│   ├── test_graph.cpp
+│   ├── test_linear_list.cpp
+│   ├── test_queue.cpp
+│   ├── test_stack.cpp
+│   ├── test_tree.cpp
+│   └── test_union_find_set.cpp
 └── src\
     ├── error\
-    │   ├── error.hpp
-    │   └── error.cpp
+    │   └── error.hpp
     ├── linear_list\
-    │   ├── circular_double_linked_list.cpp
-    │   ├── circular_linked_list.cpp
-    │   ├── double_linked_list.cpp
-    │   ├── linked_list.cpp
-    │   ├── sequential_list.cpp
-    │   └── static_linked_list.cpp
+    │   ├── circular_double_linked_list.hpp
+    │   ├── circular_linked_list.hpp
+    │   ├── double_linked_list.hpp
+    │   ├── linked_list.hpp
+    │   ├── sequential_list.hpp
+    │   └── static_linked_list.hpp
     ├── queue\
-    │   ├── circular_dequeue.cpp
-    │   ├── circular_queue.cpp
-    │   ├── list_dequeue.cpp
-    │   └── list_queue.cpp
+    │   ├── circular_dequeue.hpp
+    │   ├── circular_queue.hpp
+    │   ├── list_dequeue.hpp
+    │   └── list_queue.hpp
     ├── stack\
-    │   ├── list_stack.cpp
-    │   └── vector_stack.cpp
+    │   ├── list_stack.hpp
+    │   └── vector_stack.hpp
     ├── tree\
-    │   ├── avl_tree.cpp
-    │   ├── binary_search_tree.cpp
-    │   ├── binary_tree.cpp
-    │   └── red_black_tree.cpp
+    │   ├── avl_tree.hpp
+    │   ├── binary_search_tree.hpp
+    │   ├── binary_tree.hpp
+    │   └── red_black_tree.hpp
     ├── graph\
-    │   └── adjacency_matrix_graph.cpp
+    │   └── adjacency_matrix_graph.hpp
     ├── set\
-    │   └── union_find_set.cpp
+    │   └── union_find_set.hpp
     ├── hash\
-    │   ├── hash_table.cpp
-    │   └── hash_table.hpp
     ├── sorting_algorithms\
     │   └── sorting_algorithms.hpp
     └── string\(empty)
